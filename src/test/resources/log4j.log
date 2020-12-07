@@ -1,0 +1,159 @@
+[INFO ] 2020-12-06 15:43:21 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 15:43:21 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 15:45:25 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 15:45:25 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 15:49:09 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 15:49:09 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 15:50:10 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 15:50:10 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 15:51:49 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 15:51:49 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 15:53:06 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 15:53:06 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 15:57:12 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 15:57:12 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 15:57:41 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 16:29:13 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 16:29:13 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 16:29:32 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 16:30:55 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 16:30:55 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 16:31:03 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 16:31:30 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 16:31:30 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 16:32:25 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 16:34:19 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 16:34:19 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 16:35:27 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 16:35:27 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 16:36:38 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 16:39:49 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 16:39:49 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 16:40:37 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 16:40:37 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 16:41:53 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 16:41:53 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 16:42:46 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 16:45:47 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 16:45:47 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 16:46:27 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 16:48:05 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 16:48:05 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 16:48:22 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 16:51:10 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 16:51:10 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 16:52:10 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 16:57:39 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 16:57:39 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 16:58:22 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 17:01:43 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:01:43 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 17:02:34 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:02:34 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 17:04:03 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:04:03 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 17:04:46 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 17:10:00 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:10:00 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 17:10:07 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:10:07 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 17:11:13 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:11:13 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 17:12:41 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:12:41 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 17:13:23 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:13:23 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 17:14:27 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 17:18:45 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:18:45 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 17:21:33 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 17:22:53 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:22:53 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 17:23:42 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 17:25:39 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:25:39 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 17:27:04 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:27:04 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 17:27:49 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 17:28:47 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:28:47 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 17:29:18 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 17:30:03 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:30:03 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 17:30:46 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 17:31:33 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:31:33 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 17:31:48 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 17:33:32 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:33:32 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 17:33:37 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 17:35:01 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:35:01 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 17:35:05 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 17:35:29 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:35:29 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 17:35:40 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 17:43:27 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:43:27 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 17:44:24 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 17:45:51 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:45:51 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 17:46:27 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 17:48:56 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:48:56 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 17:49:38 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 17:58:06 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 17:58:06 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 17:58:48 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 18:04:11 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 18:04:11 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 18:17:11 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 18:17:11 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 18:17:46 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 18:19:19 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 18:19:19 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 18:24:47 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 18:24:47 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 18:27:22 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 18:32:37 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 18:32:37 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 18:33:31 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 18:33:31 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 18:34:07 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 18:34:07 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 18:49:00 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 18:49:00 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 18:51:46 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 18:58:54 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 18:58:54 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 19:22:31 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 19:22:31 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 19:23:38 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 19:23:38 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 19:24:16 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 19:25:14 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 19:25:14 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 19:28:44 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 19:28:54 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 19:28:54 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 19:30:04 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 19:30:04 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 19:31:33 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 19:31:33 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 19:32:21 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 19:32:21 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 19:34:59 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 19:34:59 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 19:36:09 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 19:36:09 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 19:37:34 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 19:37:34 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 19:40:03 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 20:30:02 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 20:30:02 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[INFO ] 2020-12-06 20:48:22 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 20:48:22 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 20:49:04 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-06 20:49:41 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 86.0.4240.22 (resolved driver for Chrome 86)
+[INFO ] 2020-12-06 20:49:41 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\86.0.4240.22\chromedriver.exe
+[ERROR] 2020-12-06 20:50:12 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
