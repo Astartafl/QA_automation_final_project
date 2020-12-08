@@ -5,6 +5,8 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.MainPage;
 
+import static org.junit.Assert.assertFalse;
+
 public class MainPageStepdefs {
 
     MainPage mainPage = new MainPage();
@@ -19,8 +21,8 @@ public class MainPageStepdefs {
         mainPage.fillInEmail(email);
     }
 
-    @Then("I see <string> message")
+    @Then("I see error message")
     public void iSeeStringMessage() {
-        System.out.println("++++++++++++++++++");
+        assertFalse(mainPage.isEmailValid());
     }
 }

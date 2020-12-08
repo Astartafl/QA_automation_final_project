@@ -30,6 +30,7 @@ public abstract class BasePage {
     public WebElement find(By locator){
         return getDriver().findElement(locator);
     }
+
     public void moveTo(WebElement element){
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView();", element);

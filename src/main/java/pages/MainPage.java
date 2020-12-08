@@ -1,6 +1,8 @@
 package pages;
 
 import lombok.Getter;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -24,27 +26,24 @@ public class MainPage extends BasePage {
 
     public MainPage(){
         PageFactory.initElements(getDriver(), this);
-        System.out.println(getDriver());
+
+    }
+
+    public boolean isEmailValid(){
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        System.out.println(js.executeScript("return arguments[0].checkValidity();", subscribeInput));
+        return (Boolean)js.executeScript("return arguments[0].checkValidity();", subscribeInput);
     }
 
     public void openMainPage() {getDriver().get("https://demo.prestashop.com/");}
     public void fillInEmail(String email){
         getDriver().switchTo().frame("framelive");
-        //subscribeButton.click();
-        System.out.println(subscribeInput);
-        System.out.println(subscribeButton);
-        System.out.println(mainPageCarousel);
         waitUntilVisible(mainPageCarousel, 20);
         moveTo(subscribeTextBlock);
-        waitUntilVisible(subscribeButton, 20);
         System.out.println("You're here");
-        //subscribeButton.click();
-  //
         subscribeInput.sendKeys(email);
         makeScreenshot();
         subscribeButton.click();
-        System.out.println(driver.switchTo().alert().getText());
-        driver.switchTo().alert().getText();
-
+        System.out.println("1");
     }
 }
