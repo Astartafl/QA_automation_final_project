@@ -629,3 +629,14 @@
 [INFO ] 2020-12-13 19:06:12 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
 [INFO ] 2020-12-13 19:06:12 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
 [ERROR] 2020-12-13 19:06:27 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-13 19:06:47 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-13 19:06:47 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-13 19:19:37 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-13 19:19:37 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[ERROR] 2020-12-13 19:19:52 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-13 19:20:25 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-13 19:20:25 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[ERROR] 2020-12-13 19:20:33 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-13 19:21:29 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-13 19:21:29 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[ERROR] 2020-12-13 19:21:36 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running

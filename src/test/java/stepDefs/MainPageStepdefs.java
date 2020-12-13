@@ -5,6 +5,7 @@ import components.ENUMS.TopMenuEnum;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.assertj.core.api.Assertions;
 import org.junit.Assert;
 import pages.MainPage;
 import static org.junit.Assert.*;
@@ -45,9 +46,9 @@ public class MainPageStepdefs {
         assertTrue(mainPage.getTopMenu().checkForNoCategories(item));
     }
 
-    @Then("I see {string} products")
-    public void iSeeProducts(String arg0) {
-        assert((mainPage.getAllProducts().size().));;
+    @Then("I see {int} products")
+    public void iSeeProducts(int arg0) {
+        Assertions.assertThat(mainPage.getAllProducts().size()).isEqualTo(arg0);
         assertTrue(mainPage.checkAllPricesArePositive());
 
     }
