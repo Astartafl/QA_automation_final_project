@@ -1,12 +1,12 @@
 package pages;
 
+import components.TopBar;
 import lombok.Getter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import static utils.ScreenShotUtil.makeScreenshot;
 
 @Getter
@@ -26,8 +26,8 @@ public class MainPage extends BasePage {
 
     public MainPage(){
         PageFactory.initElements(getDriver(), this);
-
     }
+
 
     public boolean isEmailValid(){
         JavascriptExecutor js = (JavascriptExecutor)driver;
