@@ -36,7 +36,6 @@ public class TopMenu {
             getDriver().switchTo().frame("framelive");
         } }
     public ArrayList<String> selectCategoryFromDropDown(TopMenuEnum topMenuItem) {
-
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//li[@id='category-3']")));
         ArrayList<String> allSubCategories = new ArrayList<>();
         Actions actions = new Actions(getDriver());
@@ -54,7 +53,6 @@ public class TopMenu {
                 allSubCategories = getSubCategories("//li[@id='category-9']//li");
                 break;
         }
-        System.out.println(allSubCategories);
         return allSubCategories;
     }
 
@@ -62,22 +60,18 @@ public class TopMenu {
         ArrayList<String> allSubCategories = new ArrayList<>();
         List<WebElement> subcategories = getDriver().findElements(By.xpath(elemXpath));
         for (WebElement li : subcategories) {
-            System.out.println(li);
             String sub = li.findElement(By.xpath(".//a")).getText();
             allSubCategories.add(sub);
-            System.out.println(sub);
         }
         return allSubCategories;
     }
 
     public boolean checkForCategories(TopMenuEnum enumItem, String firstSub, String secondSub){
         checkIframe();
-        System.out.println("checkForCategories");
         return selectCategoryFromDropDown(enumItem).containsAll(Arrays.asList(firstSub,secondSub));
     }
     public boolean checkForNoCategories(TopMenuEnum enumItem){
         checkIframe();
-        System.out.println("checkForNoCategories");
         return selectCategoryFromDropDown(enumItem).size() == 0;
     }
 }

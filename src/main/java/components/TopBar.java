@@ -20,12 +20,6 @@ public class TopBar {
     public static WebDriver webDriver;
     public static WebDriverWait wait = new WebDriverWait(getDriver(), 25);
 
-//    public TopBar(WebDriver driver){
-//        webDriver = driver;
-//        wait = new WebDriverWait(driver, 15);
-//
-//    }
-
     @FindBy(xpath = "//div[@class='language-selector-wrapper']")
     private WebElement languageButton;
 

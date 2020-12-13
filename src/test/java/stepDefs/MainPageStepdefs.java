@@ -33,14 +33,7 @@ public class MainPageStepdefs {
         mainPage.getTopBar().selectCategoryFromDropDown(topBarItem);
     }
 
-    @Then("I see {int} languages")
-    public void i_see_languages(int num) {
-        Assert.assertEquals(num, mainPage.getTopBar().getAllLanguagesFromDropdown().size());
-    }
-    @Then("I see {string} language")
-    public void i_see_language(String language) {
-        assertTrue(mainPage.getTopBar().getAllLanguagesFromDropdown().contains(language));
-    }
+
 
     @When("I hover mouse over {} and see {string} and {string} submenu")
     public void i_hover_mouse_over_menu(TopMenuEnum item, String firstSub, String secondSub) {
@@ -52,4 +45,10 @@ public class MainPageStepdefs {
         assertTrue(mainPage.getTopMenu().checkForNoCategories(item));
     }
 
+    @Then("I see {string} products")
+    public void iSeeProducts(String arg0) {
+        assert((mainPage.getAllProducts().size().));;
+        assertTrue(mainPage.checkAllPricesArePositive());
+
+    }
 }
