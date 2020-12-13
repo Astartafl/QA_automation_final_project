@@ -2,6 +2,7 @@ package pages;
 
 import components.Product;
 import lombok.Getter;
+import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -12,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static utils.ScreenShotUtil.makeScreenshot;
-
+@Slf4j
 @Getter
 public class MainPage extends BasePage {
 
@@ -55,13 +56,11 @@ public class MainPage extends BasePage {
         waitUntilVisible(mainPageCarousel, 10);
         Product product = new Product(getDriver());
         List<Product> allProductsList = product.getAllItems(productsList);
-//        for (Product li : allProductsList) {
-//            System.out.println(li.getProductPrice()>0);
-//        }
         return allProductsList;
     }
 
     public boolean checkAllPricesArePositive(){
+        log.info("checkAllPricesArePositive");
         List<Product> array = getAllProducts();
         for (Product li : array){
             if(li.getProductPrice()<0){

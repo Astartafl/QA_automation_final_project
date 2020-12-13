@@ -18,7 +18,6 @@ public class Hooks {
     @Before
     public void initDriver(){
         DriverManager.setUpDriver();
-        System.out.println("DriverManager.setUpDriver();");
     }
     @After
     public void quiteBrowser(Scenario scenario){

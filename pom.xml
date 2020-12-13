@@ -19,6 +19,7 @@
                     <version>3.0.0-M5</version>
                     <configuration>
                         <testFailureIgnore>true</testFailureIgnore>
+                        <forkCount>0</forkCount>
                         <includes>
                             <include>**/Runner.java</include>
                         </includes>
@@ -81,11 +82,6 @@
             <version>1.18.16</version>
         </dependency>
         <dependency>
-            <groupId>io.qameta.allure</groupId>
-            <artifactId>allure-cucumber6-jvm</artifactId>
-            <version>2.13.7</version>
-        </dependency>
-        <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
             <version>6.9.0</version>
@@ -119,6 +115,11 @@
             <artifactId>allure-junit4</artifactId>
             <version>2.13.7</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-cucumber6-jvm</artifactId>
+            <version>2.13.7</version>
         </dependency>
     </dependencies>
 </project>
