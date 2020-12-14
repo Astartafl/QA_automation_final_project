@@ -35,9 +35,9 @@ public class TopMenu {
         if(!getDriver().findElements(By.id("framelive")).isEmpty()){
             getDriver().switchTo().frame("framelive");
         } }
-    public ArrayList<String> selectCategoryFromDropDown(TopMenuEnum topMenuItem) {
+    public List<String> getCategoryFromDropDown(TopMenuEnum topMenuItem) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//li[@id='category-3']")));
-        ArrayList<String> allSubCategories = new ArrayList<>();
+        List<String> allSubCategories = new ArrayList<>();
         Actions actions = new Actions(getDriver());
         switch (topMenuItem) {
             case CLOTHES:
@@ -50,7 +50,7 @@ public class TopMenu {
                 break;
             case ART:
                 actions.moveToElement(getDriver().findElement(By.xpath("//li[@id='category-9']"))).build().perform();
-                allSubCategories = getSubCategories("//li[@id='category-9']//li");
+                allSubCategories = new ArrayList<>();
                 break;
         }
         return allSubCategories;
@@ -66,12 +66,15 @@ public class TopMenu {
         return allSubCategories;
     }
 
-    public boolean checkForCategories(TopMenuEnum enumItem, String firstSub, String secondSub){
+    public boolean checkForCategories(TopMenuEnum enumItem, List<String> firstSub){
         checkIframe();
-        return selectCategoryFromDropDown(enumItem).containsAll(Arrays.asList(firstSub,secondSub));
+        return getCategoryFromDropDown(enumItem).equals(firstSub);
     }
     public boolean checkForNoCategories(TopMenuEnum enumItem){
         checkIframe();
-        return selectCategoryFromDropDown(enumItem).size() == 0;
+        return getCategoryFromDropDown(enumItem).size() == 0;
     }
 }
+
+
+// When I hover mouse over ACCESSORIES and see 'STATIONERY' and 'HOME ACCESSORIES' submenu

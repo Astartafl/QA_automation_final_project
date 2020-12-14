@@ -7,11 +7,11 @@ import pages.BasePage;
 
 public class DriverManager {
 
-    public static void setUpDriver() {
+    public static synchronized void setUpDriver() {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        BasePage.setDriver(driver);
+        BasePage.setDriverThreadLocal(driver);
     }
 
     public static void quiteDriver() {

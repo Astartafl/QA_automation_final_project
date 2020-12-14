@@ -19,12 +19,13 @@
                     <version>3.0.0-M5</version>
                     <configuration>
                         <testFailureIgnore>true</testFailureIgnore>
-                        <forkCount>0</forkCount>
                         <includes>
                             <include>**/Runner.java</include>
                         </includes>
+                        <parallel>methods</parallel>
+                        <useUnlimitedThreads>true</useUnlimitedThreads>
                       <argLine>
-                            -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"-->
+                            -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                         </argLine>
                         <systemPropertyVariables>
                             <allure.results.directory>${project.build.directory}/reports/allure-results</allure.results.directory>

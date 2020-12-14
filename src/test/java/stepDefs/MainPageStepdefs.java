@@ -2,12 +2,16 @@ package stepDefs;
 
 import components.ENUMS.TopBarEnums;
 import components.ENUMS.TopMenuEnum;
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.assertj.core.api.Assertions;
 import org.junit.Assert;
 import pages.MainPage;
+
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 public class MainPageStepdefs {
@@ -43,9 +47,10 @@ public class MainPageStepdefs {
         assertTrue(mainPage.getTopBar().getAllLanguagesFromDropdown().contains(language));
     }
 
-    @When("I hover mouse over {} and see {string} and {string} submenu")
-    public void i_hover_mouse_over_menu(TopMenuEnum item, String firstSub, String secondSub) {
-        assertTrue(mainPage.getTopMenu().checkForCategories(item, firstSub, secondSub));
+    @When("I hover mouse over {} and see subcategories submenu")
+    public void i_hover_mouse_over_menu(TopMenuEnum item, DataTable dataTable) {
+        List<String> strings = dataTable.asList();
+        assertTrue(mainPage.getTopMenu().checkForCategories(item, strings));
     }
 
     @When("I also hover over {} see no subcategories appears")
@@ -59,4 +64,5 @@ public class MainPageStepdefs {
         assertTrue(mainPage.checkAllPricesArePositive());
 
     }
+
 }

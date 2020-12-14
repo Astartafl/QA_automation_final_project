@@ -29,22 +29,28 @@ public class MainPage extends BasePage {
     @FindBy(xpath ="//p[@id='block-newsletter-label']")
     private WebElement subscribeTextBlock;
 
-    @FindBy(id ="_desktop_cart")
+    @FindBy(xpath ="//ul[@class='carousel-inner']")
     private WebElement mainPageCarousel;
+
+    @FindBy(id ="framelive")
+    private WebElement iframelive;
 
     public MainPage(){
         PageFactory.initElements(getDriver(), this);
     }
 
     public boolean isEmailValid(){
-        JavascriptExecutor js = (JavascriptExecutor)driver;
+        JavascriptExecutor js = (JavascriptExecutor)getDriver();
         return (Boolean)js.executeScript("return arguments[0].checkValidity();", subscribeInput);
     }
 
-    public void openMainPage() {getDriver().get("https://demo.prestashop.com/");}
+    public void openMainPage() {getDriver().get("https://demo.prestashop.com/"); }
     public void fillInEmail(String email){
         getDriver().switchTo().frame("framelive");
-        waitUntilVisible(mainPageCarousel, 20);
+        System.out.println(mainPageCarousel);
+        System.out.println("before carousel");
+        waitUntilVisible(mainPageCarousel, 60);
+        System.out.println("after carousel");
         moveTo(subscribeTextBlock);
         System.out.println("You're here");
         subscribeInput.sendKeys(email);
@@ -53,7 +59,8 @@ public class MainPage extends BasePage {
     }
     public List<Product> getAllProducts() {
         checkIframe();
-        waitUntilVisible(mainPageCarousel, 10);
+
+        waitUntilVisible(mainPageCarousel, 60);
         Product product = new Product(getDriver());
         List<Product> allProductsList = product.getAllItems(productsList);
         return allProductsList;
