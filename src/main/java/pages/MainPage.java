@@ -75,5 +75,7 @@ public class MainPage extends BasePage {
             }
         }
         return true;
+
+        //add to array and array.size()==0
     }
 }

@@ -45,6 +45,7 @@ public class TopBar {
                 //actions.moveToElement(webDriver.findElement((By) languageButton)).build().perform();
                 break;
             case SIGNIN:
+                singInButton.click();
                 //actions.moveToElement(webDriver.findElement((By) singInButton)).build().perform();
                 break;
             case CARD:

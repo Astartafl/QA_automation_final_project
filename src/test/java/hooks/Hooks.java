@@ -21,14 +21,14 @@ public class Hooks {
     }
     @After
     public void quiteBrowser(Scenario scenario){
-        if(scenario.isFailed()){
-            File screenshotAs = ((TakesScreenshot) BasePage.getDriver()).getScreenshotAs(OutputType.FILE);
-            try {
-                addAttachment("Screenshot", FileUtils.openInputStream(screenshotAs));
-            } catch (IOException e){
-                e.printStackTrace();
-            }
-        }
+//        if(scenario.isFailed()){
+//            File screenshotAs = ((TakesScreenshot) BasePage.getDriver()).getScreenshotAs(OutputType.FILE);
+//            try {
+//                addAttachment("Screenshot", FileUtils.openInputStream(screenshotAs));
+//            } catch (IOException e){
+//                e.printStackTrace();
+//            }
+//        }
         DriverManager.quiteDriver();
     }
 

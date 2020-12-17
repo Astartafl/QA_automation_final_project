@@ -915,3 +915,124 @@
 [ERROR] 2020-12-14 21:15:57 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
 [INFO ] 2020-12-14 21:17:28 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
 [INFO ] 2020-12-14 21:17:28 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-16 13:42:45 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-16 13:42:45 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-16 13:43:24 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-16 13:43:24 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-16 13:44:14 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-16 13:44:14 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-16 13:45:46 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-16 13:45:46 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-16 14:02:34 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-16 14:02:34 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[ERROR] 2020-12-16 14:03:00 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-16 14:03:49 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-16 14:03:49 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[ERROR] 2020-12-16 14:04:44 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-16 14:07:20 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-16 14:07:20 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[ERROR] 2020-12-16 14:08:24 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-16 14:09:40 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-16 14:09:40 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[ERROR] 2020-12-16 14:10:04 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-16 14:10:20 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-16 14:10:20 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[ERROR] 2020-12-16 14:10:42 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-16 14:11:02 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-16 14:11:02 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-16 14:12:04 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-16 14:12:04 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[ERROR] 2020-12-16 14:12:32 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-16 14:13:25 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-16 14:13:25 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[ERROR] 2020-12-16 14:13:44 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-16 14:16:06 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-16 14:16:06 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[ERROR] 2020-12-16 14:16:32 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-16 14:18:49 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-16 14:18:49 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[ERROR] 2020-12-16 14:20:07 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-16 14:20:24 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-16 14:20:24 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[ERROR] 2020-12-16 14:20:59 AllureLifecycle:609 :prepareAttachment - message:Could not add attachment: no test is running
+[INFO ] 2020-12-16 14:22:07 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-16 14:22:07 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-16 14:23:21 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-16 14:23:21 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:27:15 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:27:15 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:27:31 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:27:31 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:27:37 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:27:37 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:27:40 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:27:40 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:27:46 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:27:46 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:28:10 MainPage:70 :checkAllPricesArePositive - message:checkAllPricesArePositive
+[INFO ] 2020-12-17 19:34:03 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:34:03 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:34:05 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:34:06 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:34:07 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:34:07 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:34:08 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:34:08 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:34:10 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:34:10 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:34:29 MainPage:70 :checkAllPricesArePositive - message:checkAllPricesArePositive
+[INFO ] 2020-12-17 19:35:33 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:35:33 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:35:35 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:35:35 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:35:37 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:35:37 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:35:38 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:35:38 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:35:40 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:35:40 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:35:49 MainPage:70 :checkAllPricesArePositive - message:checkAllPricesArePositive
+[INFO ] 2020-12-17 19:36:56 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:36:56 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:36:58 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:36:58 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:36:59 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:36:59 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:37:01 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:37:01 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:37:02 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:37:02 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:37:20 MainPage:70 :checkAllPricesArePositive - message:checkAllPricesArePositive
+[INFO ] 2020-12-17 19:43:31 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:43:31 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:43:34 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:43:34 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:43:35 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:43:35 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:43:36 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:43:36 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:43:37 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:43:37 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:43:54 MainPage:70 :checkAllPricesArePositive - message:checkAllPricesArePositive
+[INFO ] 2020-12-17 19:44:35 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:44:35 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:44:37 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:44:37 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:44:38 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:44:38 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:44:40 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:44:40 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:44:43 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:44:43 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:44:51 MainPage:70 :checkAllPricesArePositive - message:checkAllPricesArePositive
+[INFO ] 2020-12-17 19:48:49 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:48:49 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:48:51 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:48:51 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:48:52 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:48:52 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:48:53 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:48:53 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:48:55 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-17 19:48:55 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-17 19:49:13 MainPage:70 :checkAllPricesArePositive - message:checkAllPricesArePositive

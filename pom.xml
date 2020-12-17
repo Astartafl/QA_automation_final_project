@@ -30,6 +30,16 @@
                         <systemPropertyVariables>
                             <allure.results.directory>${project.build.directory}/reports/allure-results</allure.results.directory>
                         </systemPropertyVariables>
+                        <systemProperties>
+                            <property>
+                                <name>browser</name>
+                                <value>${browser}</value>
+                            </property>
+                            <property>
+                                <name>isMultiple</name>
+                                <value>${isMultiple}</value>
+                            </property>
+                        </systemProperties>
                     </configuration>
                     <dependencies>
                         <dependency>
@@ -38,6 +48,7 @@
                             <version>${aspectj.version}</version>
                         </dependency>
                     </dependencies>
+
                 </plugin>
                 <plugin>
                     <groupId>io.qameta.allure</groupId>
