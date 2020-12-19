@@ -30,7 +30,7 @@ public class Product {
         for (WebElement boxElement : boxElements) {
             String productName = boxElement.findElement(By.xpath(".//h3[@itemprop='name']")).getText();
             Double productPrice = Double.parseDouble(boxElement.findElement(By.xpath(".//span[@class='price']")).getText().substring(1));
-            String productPromoPrice = boxElement.findElement(By.xpath(".//span[@class='regular-price']")).getText();
+            //String productPromoPrice = boxElement.findElement(By.xpath(".//span[@class='regular-price']")).getText();
             //add all elements of product
 
             Product product = new Product(productName, productPrice);

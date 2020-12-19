@@ -1,3 +1,4 @@
 runners\Runner.class
+stepDefs\SingInPageStepDefs.class
 stepDefs\MainPageStepdefs.class
 hooks\Hooks.class

@@ -66,3 +66,13 @@ public class MainPageStepdefs {
     }
 
 }
+
+
+//    public static synchronized void setUpDriver() {
+//        WebDriverManager.chromedriver().setup();
+//        WebDriver driver = new ChromeDriver();
+//        driver.manage().window().maximize();
+//        BasePage.setDriverThreadLocal(driver);
+//    }
+
+// DRIVER!!! TopBar, TopMenu, Product. All drivers should be static, constructor - getDriver

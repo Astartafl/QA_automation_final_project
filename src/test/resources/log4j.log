@@ -1036,3 +1036,31 @@
 [INFO ] 2020-12-17 19:48:55 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
 [INFO ] 2020-12-17 19:48:55 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
 [INFO ] 2020-12-17 19:49:13 MainPage:70 :checkAllPricesArePositive - message:checkAllPricesArePositive
+[INFO ] 2020-12-17 20:34:33 WebDriverManager:921 :logSeekRepo - message:Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[INFO ] 2020-12-17 20:34:34 Downloader:124 :downloadAndExtract - message:Downloading https://github.com/mozilla/geckodriver/releases/download/v0.28.0/geckodriver-v0.28.0-win64.zip
+[INFO ] 2020-12-17 20:34:38 Downloader:178 :extract - message:Extracting driver from compressed file geckodriver-v0.28.0-win64.zip
+[INFO ] 2020-12-17 20:34:38 WebDriverManager:661 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\tom\.cache\selenium\geckodriver\win64\0.28.0\geckodriver.exe
+[INFO ] 2020-12-17 20:34:46 WebDriverManager:921 :logSeekRepo - message:Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[INFO ] 2020-12-17 20:34:46 WebDriverManager:661 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\tom\.cache\selenium\geckodriver\win64\0.28.0\geckodriver.exe
+[INFO ] 2020-12-17 20:34:57 WebDriverManager:921 :logSeekRepo - message:Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[INFO ] 2020-12-17 20:34:57 WebDriverManager:661 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\tom\.cache\selenium\geckodriver\win64\0.28.0\geckodriver.exe
+[INFO ] 2020-12-17 20:35:10 WebDriverManager:921 :logSeekRepo - message:Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[INFO ] 2020-12-17 20:35:10 WebDriverManager:661 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\tom\.cache\selenium\geckodriver\win64\0.28.0\geckodriver.exe
+[INFO ] 2020-12-17 20:35:16 WebDriverManager:921 :logSeekRepo - message:Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[INFO ] 2020-12-17 20:35:16 WebDriverManager:661 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\tom\.cache\selenium\geckodriver\win64\0.28.0\geckodriver.exe
+[INFO ] 2020-12-17 20:37:15 WebDriverManager:921 :logSeekRepo - message:Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[INFO ] 2020-12-17 20:37:16 WebDriverManager:661 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\tom\.cache\selenium\geckodriver\win64\0.28.0\geckodriver.exe
+[INFO ] 2020-12-17 20:37:20 WebDriverManager:921 :logSeekRepo - message:Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[INFO ] 2020-12-17 20:37:21 WebDriverManager:661 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\tom\.cache\selenium\geckodriver\win64\0.28.0\geckodriver.exe
+[INFO ] 2020-12-17 20:37:25 WebDriverManager:921 :logSeekRepo - message:Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[INFO ] 2020-12-17 20:37:25 WebDriverManager:661 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\tom\.cache\selenium\geckodriver\win64\0.28.0\geckodriver.exe
+[INFO ] 2020-12-17 20:37:31 WebDriverManager:921 :logSeekRepo - message:Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[INFO ] 2020-12-17 20:37:31 WebDriverManager:661 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\tom\.cache\selenium\geckodriver\win64\0.28.0\geckodriver.exe
+[INFO ] 2020-12-17 20:37:38 WebDriverManager:921 :logSeekRepo - message:Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[INFO ] 2020-12-17 20:37:38 WebDriverManager:661 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\tom\.cache\selenium\geckodriver\win64\0.28.0\geckodriver.exe
+[INFO ] 2020-12-17 20:37:43 MainPage:70 :checkAllPricesArePositive - message:checkAllPricesArePositive
+[INFO ] 2020-12-19 22:44:52 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-19 22:44:52 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
+[INFO ] 2020-12-19 22:45:11 MainPage:68 :checkAllPricesArePositive - message:checkAllPricesArePositive
+[INFO ] 2020-12-19 22:47:26 WebDriverManager:605 :resolveDriverVersion - message:Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
+[INFO ] 2020-12-19 22:47:26 WebDriverManager:661 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\tom\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe

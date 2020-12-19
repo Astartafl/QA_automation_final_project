@@ -9,8 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 import static utils.ScreenShotUtil.makeScreenshot;
 @Slf4j
@@ -62,20 +61,18 @@ public class MainPage extends BasePage {
 
         waitUntilVisible(mainPageCarousel, 60);
         Product product = new Product(getDriver());
-        List<Product> allProductsList = product.getAllItems(productsList);
-        return allProductsList;
+        return product.getAllItems(productsList);
     }
 
     public boolean checkAllPricesArePositive(){
         log.info("checkAllPricesArePositive");
-        List<Product> array = getAllProducts();
+        List<Product> array = getAllProducts();  //rename array!
+        List<Product> notPositivePriseProducts = new ArrayList<>();
         for (Product li : array){
-            if(li.getProductPrice()<0){
-                return false;
+            if(li.getProductPrice()<=0){
+                notPositivePriseProducts.add(li);
             }
         }
-        return true;
-
-        //add to array and array.size()==0
+        return notPositivePriseProducts.size()==0;
     }
 }

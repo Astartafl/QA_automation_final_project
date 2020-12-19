@@ -15,8 +15,6 @@ import static pages.BasePage.getDriver;
 
 @Getter
 public class TopMenu {
-    public static WebDriver webDriver;
-    public static WebDriverWait wait = new WebDriverWait(getDriver(), 25);
 
     @FindBy(xpath = "//li[@id='category-3']")
     private WebElement clothesTopMenu;
@@ -27,7 +25,11 @@ public class TopMenu {
     @FindBy(xpath = "//li[@id='category-9']")
     private WebElement artTopMenu;
 
-    public TopMenu() {
+    private static WebDriver webDriver;
+    private static WebDriverWait wait;
+    public TopMenu(WebDriver driver){
+        webDriver = driver;
+        wait = new WebDriverWait(driver, 10);
         PageFactory.initElements(getDriver(), this);
     }
 

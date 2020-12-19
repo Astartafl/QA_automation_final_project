@@ -26,8 +26,8 @@ public abstract class BasePage {
     private TopMenu topMenu;
 
     public BasePage() {
-        this.topBar = new TopBar();
-        this.topMenu = new TopMenu();
+        this.topBar = new TopBar(getDriver());
+        this.topMenu = new TopMenu(getDriver());
     }
 
     public static WebDriver getDriver() {

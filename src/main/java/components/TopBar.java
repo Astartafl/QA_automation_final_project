@@ -18,7 +18,7 @@ import static pages.BasePage.getDriver;
 @Getter
 public class TopBar {
     public static WebDriver webDriver;
-    public static WebDriverWait wait = new WebDriverWait(getDriver(), 25);
+    public static WebDriverWait wait;
 
     @FindBy(xpath = "//div[@class='language-selector-wrapper']")
     private WebElement languageButton;
@@ -32,12 +32,15 @@ public class TopBar {
     @FindBy(xpath = "//div[@class='language-selector-wrapper']//li")
     private By languagesList;
 
-    public TopBar(){ PageFactory.initElements(getDriver(), this);
+    public TopBar(WebDriver driver){
+        webDriver = driver;
+        wait = new WebDriverWait(driver, 10);
+        PageFactory.initElements(getDriver(), this);
     }
 
 
     public TopBar selectCategoryFromDropDown(TopBarEnums topBarItem){
-        getDriver().switchTo().frame("framelive");
+        webDriver.switchTo().frame("framelive");
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='language-selector-wrapper']")));
         switch(topBarItem){
             case LANGUAGES:
@@ -57,7 +60,7 @@ public class TopBar {
 
     public ArrayList getAllLanguagesFromDropdown() {
         ArrayList<String> allLanguages = new ArrayList<>();
-        List<WebElement> languages = getDriver().findElements(By.xpath("//div[@class='language-selector-wrapper']//li"));
+        List<WebElement> languages = webDriver.findElements(By.xpath("//div[@class='language-selector-wrapper']//li"));
         for (WebElement li: languages) {
             String lang = li.findElement(By.xpath(".//a")).getText();
             allLanguages.add(lang);
