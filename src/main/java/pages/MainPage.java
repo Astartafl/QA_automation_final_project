@@ -62,10 +62,10 @@ public class MainPage extends BasePage {
 
     public boolean checkEachProductHaveName(){
         log.info("checkEachProductHaveName");
-        List<Product> allProducts = getAllProducts();  //rename array!
+        List<Product> allProducts = getAllProducts();
         List<Product> productsWithoutName = new ArrayList<>();
         for (Product product : allProducts){
-            System.out.println(product.getProductName().isEmpty());
+            System.out.println(product.getProductPromoPrice());
             if(product.getProductName().isEmpty()){
                 System.out.println(product.getProductName().isEmpty());
                 productsWithoutName.add(product);

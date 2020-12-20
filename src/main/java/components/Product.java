@@ -25,7 +25,6 @@ public class Product {
         this.productName = productName;
         this.productPrice = productPrice;
         this.productPromoPrice = productPromoPrice;
-
     }
     public List<Product> getAllItems(By boxContainer) {
         List<Product> products = new ArrayList<>();
@@ -35,11 +34,8 @@ public class Product {
             String productName = boxElement.findElement(By.xpath(".//h3[@itemprop='name']")).getText();
             double productPrice = Double.parseDouble(boxElement.findElement(By.xpath(".//span[@class='price']")).getText().substring(1));
             if(boxElement.findElements(By.xpath(".//span[@class='regular-price']")).size()!=0){
-                String productPromoPrice = boxElement.findElement(By.xpath(".//span[@class='regular-price']")).getText();
+                productPromoPrice = boxElement.findElement(By.xpath(".//span[@class='regular-price']")).getText();
             } else { productPromoPrice=null; }
-            //String productPromoPrice = boxElement.findElement(By.xpath(".//span[@class='regular-price']")).getText();
-            //add all elements of product
-
             Product product = new Product(productPicture, productName, productPrice, productPromoPrice);
             products.add(product);
         }

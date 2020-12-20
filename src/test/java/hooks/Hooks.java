@@ -10,7 +10,6 @@ import org.openqa.selenium.TakesScreenshot;
 import pages.BasePage;
 import java.io.File;
 import java.io.IOException;
-
 import static io.qameta.allure.Allure.addAttachment;
 
 public class Hooks {

@@ -61,7 +61,6 @@ public class MainPageStepdefs {
     @Then("I see {int} products")
     public void iSeeProducts(int arg0) {
         Assertions.assertThat(mainPage.getAllProducts().size()).isEqualTo(arg0);
-
     }
 
     @Then("I see each product have name and each price is positive")
