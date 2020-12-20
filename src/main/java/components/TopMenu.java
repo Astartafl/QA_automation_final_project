@@ -36,24 +36,24 @@ public class TopMenu {
     }
 
     public void checkIframe(){
-        if(!getDriver().findElements(By.id("framelive")).isEmpty()){
-            getDriver().switchTo().frame("framelive");
+        if(!webDriver.findElements(By.id("framelive")).isEmpty()){
+            webDriver.switchTo().frame("framelive");
         } }
     public List<String> getCategoryFromDropDown(TopMenuEnum topMenuItem) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//li[@id='category-3']")));
         List<String> allSubCategories = new ArrayList<>();
-        Actions actions = new Actions(getDriver());
+        Actions actions = new Actions(webDriver);
         switch (topMenuItem) {
             case CLOTHES:
-                actions.moveToElement(getDriver().findElement(By.xpath("//li[@id='category-3']"))).build().perform();
+                actions.moveToElement(webDriver.findElement(By.xpath("//li[@id='category-3']"))).build().perform();
                 allSubCategories = getSubCategories("//li[@id='category-3']//li");
                 break;
             case ACCESSORIES:
-                actions.moveToElement(getDriver().findElement(By.xpath("//li[@id='category-6']"))).build().perform();
+                actions.moveToElement(webDriver.findElement(By.xpath("//li[@id='category-6']"))).build().perform();
                 allSubCategories = getSubCategories("//li[@id='category-6']//li");
                 break;
             case ART:
-                actions.moveToElement(getDriver().findElement(By.xpath("//li[@id='category-9']"))).build().perform();
+                actions.moveToElement(webDriver.findElement(By.xpath("//li[@id='category-9']"))).build().perform();
                 allSubCategories = new ArrayList<>();
                 break;
         }
@@ -62,7 +62,7 @@ public class TopMenu {
 
     public ArrayList<String> getSubCategories(String elemXpath) {
         ArrayList<String> allSubCategories = new ArrayList<>();
-        List<WebElement> subcategories = getDriver().findElements(By.xpath(elemXpath));
+        List<WebElement> subcategories = webDriver.findElements(By.xpath(elemXpath));
         for (WebElement li : subcategories) {
             String sub = li.findElement(By.xpath(".//a")).getText();
             allSubCategories.add(sub);
