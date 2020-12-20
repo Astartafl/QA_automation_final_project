@@ -65,9 +65,7 @@ public class MainPage extends BasePage {
         List<Product> allProducts = getAllProducts();
         List<Product> productsWithoutName = new ArrayList<>();
         for (Product product : allProducts){
-            System.out.println(product.getProductPromoPrice());
             if(product.getProductName().isEmpty()){
-                System.out.println(product.getProductName().isEmpty());
                 productsWithoutName.add(product);
             }
         }

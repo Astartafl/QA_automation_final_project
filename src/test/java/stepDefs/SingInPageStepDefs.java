@@ -18,4 +18,15 @@ public class SingInPageStepDefs {
     public void i_see_name(String firstName, String lastName){
         assertTrue(singInPage.checkIfCorrectNameAppeared(firstName, lastName));
     }
+
+    @Then("I see Firstname input is highlighted with red")
+    public void i_see_is_highlighted_with_red() {
+        assertTrue(singInPage.checkFieldBorderColor());
+    }
+
+    @Then("I see {string} warning message")
+    public void i_see_warning_message(String string) {
+        assertTrue(singInPage.checkIfProperWarningMessageAppeared(string));
+    }
+
 }

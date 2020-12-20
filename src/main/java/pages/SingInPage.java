@@ -1,6 +1,7 @@
 package pages;
 
 import lombok.Getter;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -63,9 +64,15 @@ public class SingInPage extends BasePage {
 
     public boolean checkIfCorrectNameAppeared(String firstName, String lastName){
         String fullName = firstName + ' ' + lastName;
-        System.out.println(fullName);
-        System.out.println(nameNearCardButton.getText());
         return (nameNearCardButton.getText()).equals(fullName);
+    }
+
+    public boolean checkFieldBorderColor(){
+        return firstNameInput.getCssValue("outline").contains("rgb(255, 76, 76)");
+    }
+
+    public boolean checkIfProperWarningMessageAppeared(String warning){
+        return getDriver().findElement(By.xpath(".//li[@class='alert alert-danger']")).getText().equals(warning);
     }
 
 }

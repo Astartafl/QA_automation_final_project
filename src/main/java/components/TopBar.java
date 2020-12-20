@@ -45,20 +45,18 @@ public class TopBar {
         switch(topBarItem){
             case LANGUAGES:
                 languageButton.click();
-                //actions.moveToElement(webDriver.findElement((By) languageButton)).build().perform();
                 break;
             case SIGNIN:
                 singInButton.click();
-                //actions.moveToElement(webDriver.findElement((By) singInButton)).build().perform();
                 break;
             case CARD:
-              //  actions.moveToElement(webDriver.findElement((By) cardButton)).build().perform();
+                cardButton.click();
                 break;
         }
         return this;
     }
 
-    public ArrayList getAllLanguagesFromDropdown() {
+    public ArrayList<String> getAllLanguagesFromDropdown() {
         ArrayList<String> allLanguages = new ArrayList<>();
         List<WebElement> languages = webDriver.findElements(By.xpath("//div[@class='language-selector-wrapper']//li"));
         for (WebElement li: languages) {

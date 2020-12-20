@@ -78,6 +78,3 @@ public class TopMenu {
         return getCategoryFromDropDown(enumItem).size() == 0;
     }
 }
-
-
-// When I hover mouse over ACCESSORIES and see 'STATIONERY' and 'HOME ACCESSORIES' submenu
