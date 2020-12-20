@@ -16,6 +16,9 @@ import static pages.BasePage.getDriver;
 @Getter
 public class TopMenu {
 
+    private static WebDriver webDriver;
+    private static WebDriverWait wait;
+
     @FindBy(xpath = "//li[@id='category-3']")
     private WebElement clothesTopMenu;
 
@@ -25,8 +28,7 @@ public class TopMenu {
     @FindBy(xpath = "//li[@id='category-9']")
     private WebElement artTopMenu;
 
-    private static WebDriver webDriver;
-    private static WebDriverWait wait;
+
     public TopMenu(WebDriver driver){
         webDriver = driver;
         wait = new WebDriverWait(driver, 10);
@@ -68,12 +70,11 @@ public class TopMenu {
         return allSubCategories;
     }
 
-    public boolean checkForCategories(TopMenuEnum enumItem, List<String> firstSub){
+    public boolean checkCategoriesContainsSubCategories(TopMenuEnum enumItem, List<String> firstSub){
         checkIframe();
         return getCategoryFromDropDown(enumItem).equals(firstSub);
     }
     public boolean checkForNoCategories(TopMenuEnum enumItem){
-        checkIframe();
         return getCategoryFromDropDown(enumItem).size() == 0;
     }
 }

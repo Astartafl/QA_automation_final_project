@@ -50,7 +50,7 @@ public class MainPageStepdefs {
     @When("I hover mouse over {} and see subcategories submenu")
     public void i_hover_mouse_over_menu(TopMenuEnum item, DataTable dataTable) {
         List<String> strings = dataTable.asList();
-        assertTrue(mainPage.getTopMenu().checkForCategories(item, strings));
+        assertTrue(mainPage.getTopMenu().checkCategoriesContainsSubCategories(item, strings));
     }
 
     @When("I also hover over {} see no subcategories appears")
@@ -61,18 +61,12 @@ public class MainPageStepdefs {
     @Then("I see {int} products")
     public void iSeeProducts(int arg0) {
         Assertions.assertThat(mainPage.getAllProducts().size()).isEqualTo(arg0);
-        assertTrue(mainPage.checkAllPricesArePositive());
 
     }
 
+    @Then("I see each product have name and each price is positive")
+    public void i_see_each_product_have_name_and_each_price_is_positive() {
+        assertTrue(mainPage.checkEachProductHaveName());
+        assertTrue(mainPage.checkAllPricesArePositive());
+    }
 }
-
-
-//    public static synchronized void setUpDriver() {
-//        WebDriverManager.chromedriver().setup();
-//        WebDriver driver = new ChromeDriver();
-//        driver.manage().window().maximize();
-//        BasePage.setDriverThreadLocal(driver);
-//    }
-
-// DRIVER!!! TopBar, TopMenu, Product. All drivers should be static, constructor - getDriver

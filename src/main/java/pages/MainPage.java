@@ -44,33 +44,43 @@ public class MainPage extends BasePage {
     }
 
     public void openMainPage() {getDriver().get("https://demo.prestashop.com/"); }
+
     public void fillInEmail(String email){
-        getDriver().switchTo().frame("framelive");
-        System.out.println(mainPageCarousel);
-        System.out.println("before carousel");
+        checkIframe();
         waitUntilVisible(mainPageCarousel, 60);
-        System.out.println("after carousel");
         moveTo(subscribeTextBlock);
-        System.out.println("You're here");
         subscribeInput.sendKeys(email);
         makeScreenshot();
         subscribeButton.click();
     }
     public List<Product> getAllProducts() {
         checkIframe();
-
         waitUntilVisible(mainPageCarousel, 60);
         Product product = new Product(getDriver());
         return product.getAllItems(productsList);
     }
 
+    public boolean checkEachProductHaveName(){
+        log.info("checkEachProductHaveName");
+        List<Product> allProducts = getAllProducts();  //rename array!
+        List<Product> productsWithoutName = new ArrayList<>();
+        for (Product product : allProducts){
+            System.out.println(product.getProductName().isEmpty());
+            if(product.getProductName().isEmpty()){
+                System.out.println(product.getProductName().isEmpty());
+                productsWithoutName.add(product);
+            }
+        }
+        return productsWithoutName.size()==0;
+    }
+
     public boolean checkAllPricesArePositive(){
         log.info("checkAllPricesArePositive");
-        List<Product> array = getAllProducts();  //rename array!
+        List<Product> allProducts = getAllProducts();
         List<Product> notPositivePriseProducts = new ArrayList<>();
-        for (Product li : array){
-            if(li.getProductPrice()<=0){
-                notPositivePriseProducts.add(li);
+        for (Product product : allProducts){
+            if(product.getProductPrice()<=0){
+                notPositivePriseProducts.add(product);
             }
         }
         return notPositivePriseProducts.size()==0;
